@@ -1,0 +1,107 @@
+              
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      </head>
+<body>
+  <div class="container">
+  <h1>Add New Article</h1>
+
+<form>
+  <div class="form-group">
+    <label for="title">Article Title</label>
+    <input type="text" class="form-control" id="titleInput" placeholder="title">
+  </div>
+  <div class="form-group">
+    <label for="author">Article Author</label>
+    <input type="text" class="form-control" id="authorInput" placeholder="author">
+  </div>
+  <div class="form-row">
+    <div class="col">
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Upload Files:</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+      <label class="my-1 mr-2" for="selectionInput">Pages</label>
+      <select class="custom-select my-1 mr-2" id="selectionInput">
+        <option selected>Academics</option>
+        <option value="1">Work Experience</option>
+        <option value="2">Special Interests</option>
+        <option value="3">Something Else</option>
+      </select>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="textbox">Article Text</label>
+    <textarea class="form-control" id="textbox"placeholder="say something..." rows="6"></textarea>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Python</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">C++</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">Java</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+        <label class="form-check-label" for="inlineCheckbox4">Scala</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+        <label class="form-check-label" for="inlineCheckbox5">Perl</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-group">
+        <label for="buttonVis">Visibility</label>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-success active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked>Public
+          </label>
+          <label class="btn btn-success">
+            <input type="radio" name="options" id="option2" autocomplete="off">Private
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <label for="login">Login to Finish Submitting</label>
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Username">
+    </div>
+    <div class="col">
+      <input class="form-control" type="password" placeholder="Password">
+    </div>
+</div>
+<br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+  <label class="form-check-label" for="inlineCheckbox6">Remember me</label>
+</div>
+<br>
+<div>
+  <br>
+  <button type="submit" class="btn btn-success mb-2">Submit</button>
+</div>
+
+</form>
+</div>
+</body>
+    </html>
